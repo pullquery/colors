@@ -5,6 +5,8 @@ import (
 	"os"
 )
 
+const CtrlC = 3
+
 func getKey() byte {
 	b := make([]byte, 1)
 

@@ -4,8 +4,6 @@ import (
 	"log"
 )
 
-const CtrlC = 3
-
 func main() {
 	old := makeRaw()
 	hideCursor()

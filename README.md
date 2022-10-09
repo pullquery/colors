@@ -1,5 +1,5 @@
 # Colors
-CLI Painter with ANSI Escape Code
+CLI Color Painter with ANSI Escape Code
 
 ## Keys
 |  KEY | COLOR   |

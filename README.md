@@ -1,7 +1,8 @@
 # Colors
 CLI Painter with ANSI Escape Code
 
-| KEY | VALUE   |
+## Keys
+| KEY | COLOR   |
 |-----|---------|
 | `   | WHITE   |
 | 1   | RED     |
@@ -11,6 +12,7 @@ CLI Painter with ANSI Escape Code
 | 5   | MAGENTA |
 | 6   | CYAN    |
 
+## Scripts
 ```shell
 go run colors # Run
 

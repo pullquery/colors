@@ -11,7 +11,7 @@ func main() {
 
 	defer func() {
 		restoreRaw(old)
-		restoreCursor()
+		showCursor()
 		clearDisplay()
 	}()
 

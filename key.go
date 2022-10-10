@@ -45,7 +45,7 @@ func controlKey(key byte, color *int) {
 		*color = CYAN
 	case 'R', 'r':
 		clearDisplay()
-	case 'Q', 'q':
+	case 'Q', 'q', CtrlC:
 		os.Exit(0)
 	}
 }

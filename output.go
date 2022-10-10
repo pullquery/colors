@@ -19,7 +19,7 @@ func hideCursor() {
 	fmt.Print("\033[?25l")
 }
 
-func restoreCursor() {
+func showCursor() {
 	fmt.Print("\033[?25h")
 }
 
@@ -31,5 +31,3 @@ func fillColor(color int) {
 	fmt.Printf("\033[48;5;%sm \033[0m", strconv.Itoa(color))
 	moveBackward()
 }
-
-func eraseColor() {}

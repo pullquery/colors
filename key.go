@@ -16,10 +16,6 @@ func getKey() byte {
 }
 
 func controlKey(key byte, color *int) {
-	if key == CtrlC {
-		os.Exit(0)
-	}
-
 	switch key {
 	case 'W', 'w':
 		moveUp()
@@ -47,6 +43,10 @@ func controlKey(key byte, color *int) {
 		*color = MAGENTA
 	case '6':
 		*color = CYAN
+	case 'R', 'r':
+		clearDisplay()
+	case 'Q', 'q':
+		os.Exit(0)
 	}
 }
 

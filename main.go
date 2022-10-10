@@ -18,7 +18,7 @@ func main() {
 	color := WHITE
 	fillColor(color)
 
-	for true {
+	for {
 		controlKey(getKey(), &color)
 	}
 }

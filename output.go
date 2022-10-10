@@ -32,6 +32,4 @@ func fillColor(color int) {
 	moveBackward()
 }
 
-func eraseColor() {
-
-}
+func eraseColor() {}

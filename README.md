@@ -2,7 +2,7 @@
 CLI Color Painter with [ANSI Escape Code](https://en.wikipedia.org/wiki/ANSI_escape_code)
 
 ## Keys
-|  KEY | COLOR   |
+|  KEY | ACTION  |
 |-----:|:--------|
 | WASD | ↑ ← ↓ → |
 |    R | CLEAR   |

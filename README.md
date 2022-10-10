@@ -4,7 +4,9 @@ CLI Color Painter with ANSI Escape Code
 ## Keys
 |  KEY | COLOR   |
 |-----:|:--------|
- | WASD | ↑ ← ↓ → |
+| WASD | ↑ ← ↓ → |
+|    R | CLEAR   |
+|    Q | EXIT    |
 |    ` | WHITE   |
 |    1 | RED     |
 |    2 | GREEN   |
@@ -12,6 +14,7 @@ CLI Color Painter with ANSI Escape Code
 |    4 | YELLOW  |
 |    5 | MAGENTA |
 |    6 | CYAN    |
+
 
 ## Scripts
 ```shell
